@@ -1,3 +1,29 @@
+### Description
+Create React project, EpiBooks.
+
+In this exercise you will create your very own book store using "React Components"!
+
+1. Use the boilerplate `create-react-app` to build your basic React App;
+2. Install `bootstrap@4.6.1` and `react-bootstrap@1.6.6` in your app;
+3. Create a `MyNav` component which will render a react-bootstrap component
+   for the navigation bar with the following links: Home, About and Browse.
+    
+Note: we don't know how to create real navigation yet,
+so for now use “#” as the "href" property for each of them.
+
+4. Create a `MyFooter` component that will render a footer for the page.
+5. Create a `Welcome` component with a "Jumbotron" and subtitle for your shop.
+6. Create an `AllTheBooks` component.
+   This component will need to read a provided .json file and display the book covers on the page
+   (you can use a react-bootstrap "Card").
+
+### TERMINAL
+- `npm i bootstrap@4.6.1`;
+- `npm i react-bootstrap@1.6.5`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
